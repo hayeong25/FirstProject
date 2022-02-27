@@ -1,0 +1,47 @@
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(http://fonts.googleapis.com/earlyaccess/Gaegu.css);
+@import url(http://fonts.googleapis.com/earlyaccess/Gugi.css);
+
+thead th {
+	background-color: #006DCC;
+	color: white;
+	text-align: center;
+}
+
+tr td:first-child,
+tr th:first-child {
+	border-top-left-radius: 6px;
+	border-bottom-left-radius: 6ps;
+}
+
+tr td:last-child,
+tr th:last-child {
+	border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+h5 {
+	font-size: 15px;
+}
+
+.vertical-alignment-helper {
+	display: table;
+	height: 100%;
+	width: 100%;
+	pointer-events: none;
+}
+
+.vertical-align-center {
+	display: table-cell;
+	vertical-align: middle;
+	pointer-events: none;
+}
+
+.modal-content {
+	width: inherit;
+	height: inherit;
+	margin: 0 auto;
+	pointer-events: none;
+}
